@@ -1,4 +1,4 @@
-package com.example.yemekkitabi
+package com.example.yemekkitabi.view
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -29,6 +29,7 @@ class ListeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.floatingActionButton.setOnClickListener { yeniEkle(it) }
+
     }
 
     fun yeniEkle(view: View){
